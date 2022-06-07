@@ -1,0 +1,24 @@
+package day1;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class CheckBox_SelectionAll {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Rahul\\Desktop\\New selenium\\chromedriver.exe"); 
+		 WebDriver d=new ChromeDriver(); 
+		 d.manage().window().maximize();
+		 d.get("https://www.amazon.in/Test-Exclusive_2020_1151-Multi-3GB-Storage/dp/B089MT35TK/ref=sr_1_2?crid=1KTJHQ07SY61Y&keywords=redmi+note+10+pro+128gb&qid=1654619789&sprefix=redmi+note+10+pro+128+gb%2Caps%2C535&sr=8-2");
+		  d.findElement (By.xpath("//input[@type='checkbox' and contains(@id,'day')]"));
+		 
+		 		
+	}
+}
+
+	

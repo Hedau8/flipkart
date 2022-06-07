@@ -1,0 +1,21 @@
+package day1;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class CheckBox_SelectionAll {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Rahul\\Desktop\\New selenium\\chromedriver.exe"); 
+		 WebDriver d=new ChromeDriver(); 
+		 d.manage().window().maximize();
+		 d.get("https://www.flipkart.com/redmi-note-10-pro-dark-night-128-gb/p/itm0479a8f8adde1?pid=MOBGB725PZQVNSUH&lid=LSTMOBGB725PZQVNSUHWY66UG&marketplace=FLIPKART&q=Red+me+note+10+pro&store=tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=3cf7a862-d039-40e8-b5ca-992ec1aeeda0.MOBGB725PZQVNSUH.SEARCH&ppt=sp&ppn=sp&ssid=milouklzgg0000001654618362886&qH=1be0aa52b2eda2a4");
+		  
+		 		
+	}
+}
